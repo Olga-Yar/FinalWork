@@ -8,7 +8,9 @@ NULLABLE = {'blank': True, 'null': True}
 class Item(models.Model):
 
     name = models.CharField(max_length=50, verbose_name='раздел', **NULLABLE)
-    about = models.TextField(verbose_name='описание')
+    about = models.TextField(verbose_name='описание', **NULLABLE)
+    materials = models.ForeignKey('Materials', on_delete=models.CASCADE)
+    user = models.ManyToManyField('UserCustom', on_delete=models.CASCADE)
 
     def __str__(self):
         return f'{self.name}: {self.about}'
