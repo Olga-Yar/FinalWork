@@ -1,4 +1,6 @@
-from users.models import UserCustom
+from django.core.management import BaseCommand
+
+from user.models import UserCustom
 
 
 class Command(BaseCommand):
