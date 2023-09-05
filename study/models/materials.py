@@ -8,12 +8,13 @@ NULLABLE = {'blank': True, 'null': True}
 class Materials(models.Model):
 
     name = models.CharField(max_length=50, verbose_name='название', **NULLABLE)
-    item = models.ForeignKey('Item', on_delete=models.SET_NULL, verbose_name='раздел', **NULLABLE) # при удалении - какую зависимость?
-    tests = models.ManyToManyField('Tests', on_delete=models.SET_NULL, verbose_name='тест', **NULLABLE) # при удалении - какую зависимость?
-    completed = models.IntegerField(verbose_name='доля выполненного', default=0) # будет расчет
+    question = models.ForeignKey('Questions', on_delete=models.SET_NULL, **NULLABLE) # при удалении - какую зависимость?
+    is_finished = models.BooleanField(default=False, verbose_name='завершен')
+    count_questions = models.IntegerField(verbose_name='количество вопросов', default=0)
+    percent_complete = models.FloatField(verbose_name='процент выполнения', default=0.0)
 
     def __str__(self):
-        return f'{self.name}: {self.completed}'
+        return f'{self.name}: {self.percent_complete}'
 
     class Meta:
         verbose_name = 'материал'
