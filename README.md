@@ -92,3 +92,20 @@
    - детализированный просмотр одного материала `materials/detail/<int:pk>`???
 4. Questions:
    - список вопросов `questions/`
+
+---
+
+## Body
+
+### POST
+#### user/login/: <br>
+{<br>
+   email: 'test@test.ru'<br>
+   password: '123098'<br>
+}<br>
+
+#### user/create/: <br>
+{<br>
+   email: 'test2@test.ru'<br>
+   password: '65490'<br>
+}<br>
