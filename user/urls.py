@@ -8,7 +8,6 @@ from user.views import UserCustomViewSet
 app_name = UserConfig.name
 
 urlpatterns = [
-    path('', include('rest_framework.urls')),
     path('token/', TokenObtainPairView.as_view()),
     path('token/refresh/', TokenObtainPairView.as_view()),
     path('token/verify/', TokenVerifyView.as_view()),
