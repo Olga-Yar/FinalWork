@@ -1,11 +1,11 @@
 from rest_framework import serializers
 
-from study.models.questions import Questions
+from study.models.questions import Question
 
 
-class QuestionsSerializer(serializers.ModelSerializer):
+class QuestionSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Questions
+        model = Question
         fields = [
             'pk', 'title', 'is_active', 'is_finished',
         ]
