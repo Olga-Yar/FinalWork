@@ -1,27 +1,30 @@
+import django_filters
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from django.shortcuts import get_object_or_404
 
-from study.models.questions import Questions
+from study.models.questions import Question
 from study.permissions import IsModerator
-from study.seriallizers.questions import QuestionsSerializer
+from study.seriallizers.questions import QuestionSerializer
 
 
-class QuestionsViewSet(ModelViewSet):
-    queryset = Questions.objects.all()
-    serializer_class = QuestionsSerializer
+class QuestionViewSet(ModelViewSet):
+    queryset = Question.objects.all()
+    serializer_class = QuestionSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ('materials__name_m')
     permission_classes = [IsAuthenticated | IsModerator]
 
     def list(self, request, **kwargs):
         """Отображение списка вопросов"""
-        queryset = Questions.objects.all()
-        serializer = QuestionsSerializer(queryset, many=True)
+        queryset = Question.objects.all()
+        serializer = QuestionSerializer(queryset, many=True)
         return Response(serializer.data)
 
     def retrieve(self, request, pk=None, **kwargs):
         """Отображение одного вопроса"""
-        queryset = Questions.objects.all()
+        queryset = Question.objects.all()
         question = get_object_or_404(queryset, pk=pk)
-        serializer = QuestionsSerializer(question)
+        serializer = QuestionSerializer(question)
         return Response(serializer.data)
