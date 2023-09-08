@@ -5,7 +5,7 @@ from rest_framework.exceptions import ValidationError
 NULLABLE = {'blank': True, 'null': True}
 
 
-class Questions(models.Model):
+class Question(models.Model):
     title = models.TextField(max_length=255, verbose_name='вопрос', **NULLABLE)
     is_active = models.BooleanField(default=True, verbose_name='опубликован')
     # time_start = models.TimeField(auto_now=True, verbose_name='время старта')
