@@ -4,13 +4,14 @@ from rest_framework.viewsets import ModelViewSet
 from django.shortcuts import get_object_or_404
 
 from study.models.questions import Questions
+from study.permissions import IsModerator
 from study.seriallizers.questions import QuestionsSerializer
 
 
 class QuestionsViewSet(ModelViewSet):
     queryset = Questions.objects.all()
     serializer_class = QuestionsSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated | IsModerator]
 
     def list(self, request, **kwargs):
         """Отображение списка вопросов"""
