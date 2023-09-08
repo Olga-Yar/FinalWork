@@ -7,5 +7,5 @@ class MaterialsSerializer(serializers.ModelSerializer):
     class Meta:
         model = Materials
         fields = [
-            'name_m', 'question', 'is_finished', 'count_questions', 'percent_complete',
+            'pk','name_m', 'question', 'is_finished', 'count_questions', 'percent_complete',
         ]
