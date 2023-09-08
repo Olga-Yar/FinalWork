@@ -4,13 +4,14 @@ from rest_framework.viewsets import ModelViewSet
 from django.shortcuts import get_object_or_404
 
 from study.models.materials import Materials
+from study.permissions import IsModerator
 from study.seriallizers.materials import MaterialsSerializer
 
 
 class MaterialsViewSet(ModelViewSet):
     queryset = Materials.objects.all()
     serializer_class = MaterialsSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated | IsModerator]
 
     def list(self, request, **kwargs):
         """Отображение списка материалов"""
