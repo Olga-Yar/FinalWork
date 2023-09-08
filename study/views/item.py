@@ -4,13 +4,14 @@ from rest_framework.viewsets import ModelViewSet
 from django.shortcuts import get_object_or_404
 
 from study.models.item import Item
+from study.permissions import IsModerator
 from study.seriallizers.item import ItemSerializer
 
 
 class ItemViewSet(ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
-    permission_classes = [IsAuthenticated]
+    permission_classes = [IsAuthenticated | IsModerator]
 
     def list(self, request, **kwargs):
         """Отображение списка разделов"""
