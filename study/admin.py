@@ -9,14 +9,14 @@ from study.models.questions import Questions
 @admin.register(Item)
 class ItemAdmin(admin.ModelAdmin):
     list_display = (
-        'name', 'about',
+        'pk', 'name', 'about',
     )
 
 
 @admin.register(Materials)
 class MaterialsAdmin(admin.ModelAdmin):
     list_display = (
-        'name_m', 'is_finished', 'percent_complete',
+        'pk', 'name_m', 'is_finished', 'percent_complete',
     )
     list_filter = ('item__name',)
 
@@ -24,7 +24,7 @@ class MaterialsAdmin(admin.ModelAdmin):
 @admin.register(Questions)
 class QuestionsAdmin(admin.ModelAdmin):
     list_display = (
-        'title', 'is_active', 'is_finished',
+        'pk', 'title', 'is_active', 'is_finished',
     )
     list_filter = ('materials__name_m',)
 
@@ -32,6 +32,6 @@ class QuestionsAdmin(admin.ModelAdmin):
 @admin.register(Answers)
 class AnswersAdmin(admin.ModelAdmin):
     list_display = (
-        'answer', 'user_answer', 'is_correct_answer', 'is_user_correct'
+        'pk', 'answer', 'user_answer', 'is_correct_answer', 'is_user_correct'
     )
     list_filter = ('questions__title',)
