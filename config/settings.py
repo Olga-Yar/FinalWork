@@ -21,7 +21,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('SECRET_KEY')
+SECRET_KEY = 'django-insecure-0(mg!u246zdlv=j-&qds+2^n1bnr%0floyd%^0(4re)0n5@va_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'study',
     'user',
 
-    'rest-framework',
+    'rest_framework',
     'django_filters',
     'rest_framework_simplejwt',
 
@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'study_project',
+        'NAME': 'study_final',
         'HOST': os.getenv('POSTGRES_HOST'),
         'PORT': os.getenv('POSTGRES_PORT'),
         'USER': os.getenv('POSTGRES_USER'),
@@ -164,10 +164,10 @@ SIMPLE_JWT = {
 }
 
 CORS_ALLOWED_ORIGINS = [
-    os.getenv('CORS_ALLOWED_ORIGINS'),
+    'http://localhost:8000',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = False
 
-AUTH_USER_MODEL = 'users.UserCustom'
+AUTH_USER_MODEL = 'user.UserCustom'
 
