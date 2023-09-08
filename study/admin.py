@@ -3,7 +3,7 @@ from django.contrib import admin
 from study.models.answers import Answers
 from study.models.item import Item
 from study.models.materials import Materials
-from study.models.questions import Questions
+from study.models.questions import Question
 
 
 @admin.register(Item)
@@ -21,8 +21,8 @@ class MaterialsAdmin(admin.ModelAdmin):
     list_filter = ('item__name',)
 
 
-@admin.register(Questions)
-class QuestionsAdmin(admin.ModelAdmin):
+@admin.register(Question)
+class QuestionAdmin(admin.ModelAdmin):
     list_display = (
         'pk', 'title', 'is_active', 'is_finished',
     )
@@ -34,4 +34,4 @@ class AnswersAdmin(admin.ModelAdmin):
     list_display = (
         'pk', 'answer', 'user_answer', 'is_correct_answer', 'is_user_correct'
     )
-    list_filter = ('questions__title',)
+    list_filter = ('question__title',)
