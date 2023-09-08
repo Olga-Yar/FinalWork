@@ -1,3 +1,4 @@
+import django_filters
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
@@ -11,6 +12,8 @@ from study.seriallizers.materials import MaterialsSerializer
 class MaterialsViewSet(ModelViewSet):
     queryset = Materials.objects.all()
     serializer_class = MaterialsSerializer
+    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
+    filterset_fields = ('item__name')
     permission_classes = [IsAuthenticated | IsModerator]
 
     def list(self, request, **kwargs):
