@@ -8,7 +8,7 @@ NULLABLE = {'blank': True, 'null': True}
 class Materials(models.Model):
 
     name_m = models.CharField(max_length=50, verbose_name='название', **NULLABLE)
-    question = models.ManyToManyField('Questions', **NULLABLE) # при удалении - какую зависимость?
+    question = models.ManyToManyField('Questions', **NULLABLE)
     is_finished = models.BooleanField(default=False, verbose_name='завершен')
     count_questions = models.IntegerField(verbose_name='количество вопросов', default=0)
     percent_complete = models.FloatField(verbose_name='процент выполнения', default=0.0)
