@@ -11,6 +11,7 @@ class Questions(models.Model):
     # time_start = models.TimeField(auto_now=True, verbose_name='время старта')
     # time_for_complete = models.TimeField(default='00:01:00', verbose_name='время на выполнение')
     is_finished = models.BooleanField(default=False, verbose_name='завершено')
+    answer = models.ManyToManyField('Answers')
 
     def __str__(self):
         return f'{self.title}: {self.is_active}, {self.is_finished}'
