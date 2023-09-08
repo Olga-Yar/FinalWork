@@ -9,8 +9,8 @@ class Item(models.Model):
 
     name = models.CharField(max_length=50, verbose_name='раздел', **NULLABLE)
     about = models.TextField(verbose_name='описание', **NULLABLE)
-    materials = models.ManyToManyField('Materials', **NULLABLE)
-    user = models.ManyToManyField('user.UserCustom', **NULLABLE)
+    materials = models.ManyToManyField('Materials')
+    user = models.ManyToManyField('user.UserCustom')
 
     def __str__(self):
         return f'{self.name}: {self.about}'
