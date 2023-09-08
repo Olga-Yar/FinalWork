@@ -4,7 +4,7 @@ from rest_framework import routers
 from study.apps import StudyConfig
 from study.views.item import ItemViewSet
 from study.views.materials import MaterialsViewSet
-from study.views.questions import QuestionsViewSet
+from study.views.questions import QuestionViewSet
 
 app_name = StudyConfig.name
 
@@ -19,10 +19,10 @@ urlpatterns = [
     path('materials/<int:pk>/update/', MaterialsViewSet.as_view({'put': 'update'})),  # доступ только для модератора
     path('materials/create/', MaterialsViewSet.as_view({'put': 'create'})),   # доступ только для модератора
 
-    path('questions/', QuestionsViewSet.as_view({'get': 'list'})),
-    path('questions/<int:pk>/', QuestionsViewSet.as_view({'get': 'retrieve'})),
-    path('questions/<int:pk>/update/', QuestionsViewSet.as_view({'put': 'update'})),  # доступ только для модератора
-    path('questions/create/', QuestionsViewSet.as_view({'put': 'create'})),   # доступ только для модератора
+    path('questions/', QuestionViewSet.as_view({'get': 'list'})),
+    path('questions/<int:pk>/', QuestionViewSet.as_view({'get': 'retrieve'})),
+    path('questions/<int:pk>/update/', QuestionViewSet.as_view({'put': 'update'})),  # доступ только для модератора
+    path('questions/create/', QuestionViewSet.as_view({'put': 'create'})),   # доступ только для модератора
 ]
 
 router = routers.SimpleRouter()
