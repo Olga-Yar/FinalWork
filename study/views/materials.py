@@ -12,9 +12,11 @@ from study.seriallizers.materials import MaterialsSerializer
 class MaterialsViewSet(ModelViewSet):
     queryset = Materials.objects.all()
     serializer_class = MaterialsSerializer
-    filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
-    filterset_fields = ('item__name')
     permission_classes = [IsAuthenticated | IsModerator]
+
+    # def get_queryset(self):
+    #     item_id = self.kwargs['item_id']
+    #     return Materials.objects.filter(section=item_id)
 
     def list(self, request, **kwargs):
         """Отображение списка материалов"""
