@@ -1,1 +1,1744 @@
-[{"model": "study.answers", "pk": 17, "fields": {"answer": "10", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 18, "fields": {"answer": "8", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 19, "fields": {"answer": "13", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 20, "fields": {"answer": "7", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 21, "fields": {"answer": "20", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 22, "fields": {"answer": "35", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 23, "fields": {"answer": "25", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 24, "fields": {"answer": "15", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 25, "fields": {"answer": "1", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 26, "fields": {"answer": "1.2", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 27, "fields": {"answer": "2", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 28, "fields": {"answer": "3", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 29, "fields": {"answer": "2", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 30, "fields": {"answer": "3", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 31, "fields": {"answer": "1", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 32, "fields": {"answer": "5", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 33, "fields": {"answer": "11", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 34, "fields": {"answer": "12", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 35, "fields": {"answer": "22", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 36, "fields": {"answer": "17", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 37, "fields": {"answer": "7", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 38, "fields": {"answer": "4", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 39, "fields": {"answer": "9", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 40, "fields": {"answer": "3", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 41, "fields": {"answer": "11", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 42, "fields": {"answer": "14", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 43, "fields": {"answer": "12", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 44, "fields": {"answer": "10", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 45, "fields": {"answer": "15", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 46, "fields": {"answer": "16", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 47, "fields": {"answer": "12", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 48, "fields": {"answer": "13", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 49, "fields": {"answer": "17", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 50, "fields": {"answer": "19", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 51, "fields": {"answer": "15", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 52, "fields": {"answer": "12", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 53, "fields": {"answer": "55", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 54, "fields": {"answer": "35", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 55, "fields": {"answer": "45", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 56, "fields": {"answer": "65", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 57, "fields": {"answer": "97", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 58, "fields": {"answer": "77", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 59, "fields": {"answer": "107", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 60, "fields": {"answer": "108", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 61, "fields": {"answer": "123", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 62, "fields": {"answer": "121", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 63, "fields": {"answer": "125", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 64, "fields": {"answer": "113", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 65, "fields": {"answer": "510", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 66, "fields": {"answer": "435", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 67, "fields": {"answer": "590", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 68, "fields": {"answer": "490", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 69, "fields": {"answer": "6", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 70, "fields": {"answer": "8", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 71, "fields": {"answer": "7", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 72, "fields": {"answer": "9", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 73, "fields": {"answer": "1", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 74, "fields": {"answer": "0", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 75, "fields": {"answer": "7", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 76, "fields": {"answer": "8", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 77, "fields": {"answer": "1035", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 78, "fields": {"answer": "1015", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 79, "fields": {"answer": "985", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 80, "fields": {"answer": "765", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 81, "fields": {"answer": "каравелла", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 82, "fields": {"answer": "токарный станок", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 83, "fields": {"answer": "астролябия", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 84, "fields": {"answer": "портоланы", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 85, "fields": {"answer": "Аристотель", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 86, "fields": {"answer": "И.Гуттенберг", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 87, "fields": {"answer": "П.Тосканелли", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 88, "fields": {"answer": "Ф.Магеллан", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 89, "fields": {"answer": "развитие торговли с Востоком", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 90, "fields": {"answer": "авантюризм", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 91, "fields": {"answer": "стремление к обогащению", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 92, "fields": {"answer": "верно все перечисленное выше", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 93, "fields": {"answer": "862", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 94, "fields": {"answer": "956", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 95, "fields": {"answer": "823", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 96, "fields": {"answer": "903", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 97, "fields": {"answer": "Борис и Глеб", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 98, "fields": {"answer": "Пересвет", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 99, "fields": {"answer": "Святослав", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 100, "fields": {"answer": "Аскольд и Дир", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 101, "fields": {"answer": "862-879", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 102, "fields": {"answer": "879-912", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 103, "fields": {"answer": "912-945", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 104, "fields": {"answer": "945-972", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 105, "fields": {"answer": "Хазарский каганат", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 106, "fields": {"answer": "Печенеги", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 107, "fields": {"answer": "Византийскию империю", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 108, "fields": {"answer": "don't love", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 109, "fields": {"answer": "doesn't love", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 110, "fields": {"answer": "love", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 111, "fields": {"answer": "don't drink", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 112, "fields": {"answer": "drinks", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 113, "fields": {"answer": "drink", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 114, "fields": {"answer": "drinks", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 115, "fields": {"answer": "doesn't drink", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 116, "fields": {"answer": "drink", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 117, "fields": {"answer": "is", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 118, "fields": {"answer": "are", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 119, "fields": {"answer": "am", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 120, "fields": {"answer": "is", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 121, "fields": {"answer": "are", "user_answer": false, "is_correct_answer": true, "is_user_correct": false, "user": 0}}, {"model": "study.answers", "pk": 122, "fields": {"answer": "am", "user_answer": false, "is_correct_answer": false, "is_user_correct": false, "user": 0}}, {"model": "study.item", "pk": 1, "fields": {"name": "Математика", "about": "Раздел представляет собой уроки по математике, которые упорядочены по принципу «от простого к сложному». Каждый урок затрагивает одну или несколько тем из математики.", "materials": [8, 6, 7], "user": []}}, {"model": "study.item", "pk": 2, "fields": {"name": "История", "about": "В данном разделе можно проверить себя на знание основных исторических фактов.", "materials": [9, 10], "user": []}}, {"model": "study.item", "pk": 3, "fields": {"name": "Английский язык", "about": "", "materials": [11, 12], "user": []}}, {"model": "study.item", "pk": 4, "fields": {"name": "Физика", "about": "Раздел помогает проверить свои знания по физике.", "materials": [], "user": []}}, {"model": "study.materials", "pk": 6, "fields": {"name_m": "Сложение", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [6, 16, 17, 18, 19, 20]}}, {"model": "study.materials", "pk": 7, "fields": {"name_m": "Умножение", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [8, 21, 22, 23]}}, {"model": "study.materials", "pk": 8, "fields": {"name_m": "Деление", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [9, 11, 12, 13, 14, 15]}}, {"model": "study.materials", "pk": 9, "fields": {"name_m": "Великие географические открытия:", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [24, 25, 26]}}, {"model": "study.materials", "pk": 10, "fields": {"name_m": "Эпоха первых правителей Руси:", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [27, 28, 29, 30]}}, {"model": "study.materials", "pk": 11, "fields": {"name_m": "Present Simple", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [32, 33, 31]}}, {"model": "study.materials", "pk": 12, "fields": {"name_m": "Глагол to be", "is_finished": false, "count_questions": 0, "percent_complete": 0.0, "question": [34, 35]}}, {"model": "study.question", "pk": 6, "fields": {"title": "5+5", "is_active": true, "is_finished": false, "answer": [17, 18, 19, 20]}}, {"model": "study.question", "pk": 8, "fields": {"title": "5*5", "is_active": true, "is_finished": false, "answer": [21, 22, 23, 24]}}, {"model": "study.question", "pk": 9, "fields": {"title": "3/2", "is_active": true, "is_finished": false, "answer": [25, 26, 27, 28]}}, {"model": "study.question", "pk": 11, "fields": {"title": "6/3", "is_active": true, "is_finished": false, "answer": [29, 30, 31, 32]}}, {"model": "study.question", "pk": 12, "fields": {"title": "44/2", "is_active": true, "is_finished": false, "answer": [33, 34, 35, 36]}}, {"model": "study.question", "pk": 13, "fields": {"title": "63/9", "is_active": true, "is_finished": false, "answer": [37, 38, 39, 40]}}, {"model": "study.question", "pk": 14, "fields": {"title": "121/11", "is_active": true, "is_finished": false, "answer": [41, 42, 43, 44]}}, {"model": "study.question", "pk": 15, "fields": {"title": "169/13", "is_active": true, "is_finished": false, "answer": [45, 46, 47, 48]}}, {"model": "study.question", "pk": 16, "fields": {"title": "6+9", "is_active": true, "is_finished": false, "answer": [50, 52, 51, 49]}}, {"model": "study.question", "pk": 17, "fields": {"title": "12+33", "is_active": true, "is_finished": false, "answer": [53, 54, 55, 56]}}, {"model": "study.question", "pk": 18, "fields": {"title": "58+19", "is_active": true, "is_finished": false, "answer": [57, 58, 59, 60]}}, {"model": "study.question", "pk": 19, "fields": {"title": "54+69", "is_active": true, "is_finished": false, "answer": [61, 62, 63, 64]}}, {"model": "study.question", "pk": 20, "fields": {"title": "125+365", "is_active": true, "is_finished": false, "answer": [65, 66, 67, 68]}}, {"model": "study.question", "pk": 21, "fields": {"title": "2*3", "is_active": true, "is_finished": false, "answer": [69, 70, 71, 72]}}, {"model": "study.question", "pk": 22, "fields": {"title": "7*0", "is_active": true, "is_finished": false, "answer": [73, 74, 75, 76]}}, {"model": "study.question", "pk": 23, "fields": {"title": "15*69", "is_active": true, "is_finished": false, "answer": [80, 77, 78, 79]}}, {"model": "study.question", "pk": 24, "fields": {"title": "Какое техническое изобретения не повлияло на открытие новых земель:", "is_active": true, "is_finished": false, "answer": [81, 82, 83, 84]}}, {"model": "study.question", "pk": 25, "fields": {"title": "Кто выдвинул идею о возможности достижения Индии западным путем, а также являлся автором портолан:", "is_active": true, "is_finished": false, "answer": [88, 85, 86, 87]}}, {"model": "study.question", "pk": 26, "fields": {"title": "Какие причины привели к Великим географическим открытиям:", "is_active": true, "is_finished": false, "answer": [89, 90, 91, 92]}}, {"model": "study.question", "pk": 27, "fields": {"title": "В каком году славяне призвали Рюрика ?", "is_active": true, "is_finished": false, "answer": [96, 93, 94, 95]}}, {"model": "study.question", "pk": 28, "fields": {"title": "Кто из дружинников захватил Киев?", "is_active": true, "is_finished": false, "answer": [97, 98, 99, 100]}}, {"model": "study.question", "pk": 29, "fields": {"title": "Годы правления Вещего Олега ?", "is_active": true, "is_finished": false, "answer": [104, 101, 102, 103]}}, {"model": "study.question", "pk": 30, "fields": {"title": "Какое государство полностью разбил Святослав ?", "is_active": true, "is_finished": false, "answer": [105, 106, 107]}}, {"model": "study.question", "pk": 31, "fields": {"title": "Mark ... cakes.", "is_active": true, "is_finished": false, "answer": [108, 109, 110]}}, {"model": "study.question", "pk": 32, "fields": {"title": "She ... milk", "is_active": true, "is_finished": false, "answer": [112, 113, 111]}}, {"model": "study.question", "pk": 33, "fields": {"title": "They ... orange juice.", "is_active": true, "is_finished": false, "answer": [114, 115, 116]}}, {"model": "study.question", "pk": 34, "fields": {"title": "... Ann at school?", "is_active": true, "is_finished": false, "answer": [117, 118, 119]}}, {"model": "study.question", "pk": 35, "fields": {"title": "... you sisters?", "is_active": true, "is_finished": false, "answer": [120, 121, 122]}}]
+[
+  {
+    "model": "study.answers",
+    "pk": 17,
+    "fields": {
+      "answer": "10",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 18,
+    "fields": {
+      "answer": "8",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 19,
+    "fields": {
+      "answer": "13",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 20,
+    "fields": {
+      "answer": "7",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 21,
+    "fields": {
+      "answer": "20",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 22,
+    "fields": {
+      "answer": "35",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 23,
+    "fields": {
+      "answer": "25",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 24,
+    "fields": {
+      "answer": "15",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 25,
+    "fields": {
+      "answer": "1",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 26,
+    "fields": {
+      "answer": "1.2",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 27,
+    "fields": {
+      "answer": "2",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 28,
+    "fields": {
+      "answer": "3",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 29,
+    "fields": {
+      "answer": "2",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 30,
+    "fields": {
+      "answer": "3",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 31,
+    "fields": {
+      "answer": "1",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 32,
+    "fields": {
+      "answer": "5",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 33,
+    "fields": {
+      "answer": "11",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 34,
+    "fields": {
+      "answer": "12",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 35,
+    "fields": {
+      "answer": "22",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 36,
+    "fields": {
+      "answer": "17",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 37,
+    "fields": {
+      "answer": "7",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 38,
+    "fields": {
+      "answer": "4",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 39,
+    "fields": {
+      "answer": "9",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 40,
+    "fields": {
+      "answer": "3",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 41,
+    "fields": {
+      "answer": "11",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 42,
+    "fields": {
+      "answer": "14",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 43,
+    "fields": {
+      "answer": "12",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 44,
+    "fields": {
+      "answer": "10",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 45,
+    "fields": {
+      "answer": "15",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 46,
+    "fields": {
+      "answer": "16",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 47,
+    "fields": {
+      "answer": "12",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 48,
+    "fields": {
+      "answer": "13",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 49,
+    "fields": {
+      "answer": "17",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 50,
+    "fields": {
+      "answer": "19",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 51,
+    "fields": {
+      "answer": "15",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 52,
+    "fields": {
+      "answer": "12",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 53,
+    "fields": {
+      "answer": "55",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 54,
+    "fields": {
+      "answer": "35",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 55,
+    "fields": {
+      "answer": "45",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 56,
+    "fields": {
+      "answer": "65",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 57,
+    "fields": {
+      "answer": "97",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 58,
+    "fields": {
+      "answer": "77",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 59,
+    "fields": {
+      "answer": "107",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 60,
+    "fields": {
+      "answer": "108",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 61,
+    "fields": {
+      "answer": "123",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 62,
+    "fields": {
+      "answer": "121",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 63,
+    "fields": {
+      "answer": "125",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 64,
+    "fields": {
+      "answer": "113",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 65,
+    "fields": {
+      "answer": "510",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 66,
+    "fields": {
+      "answer": "435",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 67,
+    "fields": {
+      "answer": "590",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 68,
+    "fields": {
+      "answer": "490",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 69,
+    "fields": {
+      "answer": "6",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 70,
+    "fields": {
+      "answer": "8",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 71,
+    "fields": {
+      "answer": "7",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 72,
+    "fields": {
+      "answer": "9",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 73,
+    "fields": {
+      "answer": "1",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 74,
+    "fields": {
+      "answer": "0",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 75,
+    "fields": {
+      "answer": "7",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 76,
+    "fields": {
+      "answer": "8",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 77,
+    "fields": {
+      "answer": "1035",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 78,
+    "fields": {
+      "answer": "1015",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 79,
+    "fields": {
+      "answer": "985",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 80,
+    "fields": {
+      "answer": "765",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 81,
+    "fields": {
+      "answer": "каравелла",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 82,
+    "fields": {
+      "answer": "токарный станок",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 83,
+    "fields": {
+      "answer": "астролябия",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 84,
+    "fields": {
+      "answer": "портоланы",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 85,
+    "fields": {
+      "answer": "Аристотель",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 86,
+    "fields": {
+      "answer": "И.Гуттенберг",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 87,
+    "fields": {
+      "answer": "П.Тосканелли",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 88,
+    "fields": {
+      "answer": "Ф.Магеллан",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 89,
+    "fields": {
+      "answer": "развитие торговли с Востоком",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 90,
+    "fields": {
+      "answer": "авантюризм",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 91,
+    "fields": {
+      "answer": "стремление к обогащению",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 92,
+    "fields": {
+      "answer": "верно все перечисленное выше",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 93,
+    "fields": {
+      "answer": "862",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 94,
+    "fields": {
+      "answer": "956",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 95,
+    "fields": {
+      "answer": "823",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 96,
+    "fields": {
+      "answer": "903",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 97,
+    "fields": {
+      "answer": "Борис и Глеб",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 98,
+    "fields": {
+      "answer": "Пересвет",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 99,
+    "fields": {
+      "answer": "Святослав",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 100,
+    "fields": {
+      "answer": "Аскольд и Дир",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 101,
+    "fields": {
+      "answer": "862-879",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 102,
+    "fields": {
+      "answer": "879-912",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 103,
+    "fields": {
+      "answer": "912-945",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 104,
+    "fields": {
+      "answer": "945-972",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 105,
+    "fields": {
+      "answer": "Хазарский каганат",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 106,
+    "fields": {
+      "answer": "Печенеги",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 107,
+    "fields": {
+      "answer": "Византийскию империю",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 108,
+    "fields": {
+      "answer": "don't love",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 109,
+    "fields": {
+      "answer": "doesn't love",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 110,
+    "fields": {
+      "answer": "love",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 111,
+    "fields": {
+      "answer": "don't drink",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 112,
+    "fields": {
+      "answer": "drinks",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 113,
+    "fields": {
+      "answer": "drink",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 114,
+    "fields": {
+      "answer": "drinks",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 115,
+    "fields": {
+      "answer": "doesn't drink",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 116,
+    "fields": {
+      "answer": "drink",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 117,
+    "fields": {
+      "answer": "is",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 118,
+    "fields": {
+      "answer": "are",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 119,
+    "fields": {
+      "answer": "am",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 120,
+    "fields": {
+      "answer": "is",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 121,
+    "fields": {
+      "answer": "are",
+      "user_answer": false,
+      "is_correct_answer": true,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.answers",
+    "pk": 122,
+    "fields": {
+      "answer": "am",
+      "user_answer": false,
+      "is_correct_answer": false,
+      "is_user_correct": false,
+      "user": 0
+    }
+  },
+  {
+    "model": "study.item",
+    "pk": 1,
+    "fields": {
+      "name": "Математика",
+      "about": "Раздел представляет собой уроки по математике, которые упорядочены по принципу «от простого к сложному». Каждый урок затрагивает одну или несколько тем из математики.",
+      "materials": [
+        8,
+        6,
+        7
+      ],
+      "user": []
+    }
+  },
+  {
+    "model": "study.item",
+    "pk": 2,
+    "fields": {
+      "name": "История",
+      "about": "В данном разделе можно проверить себя на знание основных исторических фактов.",
+      "materials": [
+        9,
+        10
+      ],
+      "user": []
+    }
+  },
+  {
+    "model": "study.item",
+    "pk": 3,
+    "fields": {
+      "name": "Английский язык",
+      "about": "",
+      "materials": [
+        11,
+        12
+      ],
+      "user": []
+    }
+  },
+  {
+    "model": "study.item",
+    "pk": 4,
+    "fields": {
+      "name": "Физика",
+      "about": "Раздел помогает проверить свои знания по физике.",
+      "materials": [],
+      "user": []
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 6,
+    "fields": {
+      "name_m": "Сложение",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        6,
+        16,
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 7,
+    "fields": {
+      "name_m": "Умножение",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        8,
+        21,
+        22,
+        23
+      ]
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 8,
+    "fields": {
+      "name_m": "Деление",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ]
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 9,
+    "fields": {
+      "name_m": "Великие географические открытия:",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        24,
+        25,
+        26
+      ]
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 10,
+    "fields": {
+      "name_m": "Эпоха первых правителей Руси:",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        27,
+        28,
+        29,
+        30
+      ]
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 11,
+    "fields": {
+      "name_m": "Present Simple",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        32,
+        33,
+        31
+      ]
+    }
+  },
+  {
+    "model": "study.materials",
+    "pk": 12,
+    "fields": {
+      "name_m": "Глагол to be",
+      "is_finished": false,
+      "count_questions": 0,
+      "percent_complete": 0.0,
+      "question": [
+        34,
+        35
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 6,
+    "fields": {
+      "title": "5+5",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 8,
+    "fields": {
+      "title": "5*5",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        21,
+        22,
+        23,
+        24
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 9,
+    "fields": {
+      "title": "3/2",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        25,
+        26,
+        27,
+        28
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 11,
+    "fields": {
+      "title": "6/3",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        29,
+        30,
+        31,
+        32
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 12,
+    "fields": {
+      "title": "44/2",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        33,
+        34,
+        35,
+        36
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 13,
+    "fields": {
+      "title": "63/9",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        37,
+        38,
+        39,
+        40
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 14,
+    "fields": {
+      "title": "121/11",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        41,
+        42,
+        43,
+        44
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 15,
+    "fields": {
+      "title": "169/13",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        45,
+        46,
+        47,
+        48
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 16,
+    "fields": {
+      "title": "6+9",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        50,
+        52,
+        51,
+        49
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 17,
+    "fields": {
+      "title": "12+33",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        53,
+        54,
+        55,
+        56
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 18,
+    "fields": {
+      "title": "58+19",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        57,
+        58,
+        59,
+        60
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 19,
+    "fields": {
+      "title": "54+69",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        61,
+        62,
+        63,
+        64
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 20,
+    "fields": {
+      "title": "125+365",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        65,
+        66,
+        67,
+        68
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 21,
+    "fields": {
+      "title": "2*3",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        69,
+        70,
+        71,
+        72
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 22,
+    "fields": {
+      "title": "7*0",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        73,
+        74,
+        75,
+        76
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 23,
+    "fields": {
+      "title": "15*69",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        80,
+        77,
+        78,
+        79
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 24,
+    "fields": {
+      "title": "Какое техническое изобретения не повлияло на открытие новых земель:",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        81,
+        82,
+        83,
+        84
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 25,
+    "fields": {
+      "title": "Кто выдвинул идею о возможности достижения Индии западным путем, а также являлся автором портолан:",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        88,
+        85,
+        86,
+        87
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 26,
+    "fields": {
+      "title": "Какие причины привели к Великим географическим открытиям:",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        89,
+        90,
+        91,
+        92
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 27,
+    "fields": {
+      "title": "В каком году славяне призвали Рюрика ?",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        96,
+        93,
+        94,
+        95
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 28,
+    "fields": {
+      "title": "Кто из дружинников захватил Киев?",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        97,
+        98,
+        99,
+        100
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 29,
+    "fields": {
+      "title": "Годы правления Вещего Олега ?",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        104,
+        101,
+        102,
+        103
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 30,
+    "fields": {
+      "title": "Какое государство полностью разбил Святослав ?",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        105,
+        106,
+        107
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 31,
+    "fields": {
+      "title": "Mark ... cakes.",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        108,
+        109,
+        110
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 32,
+    "fields": {
+      "title": "She ... milk",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        112,
+        113,
+        111
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 33,
+    "fields": {
+      "title": "They ... orange juice.",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        114,
+        115,
+        116
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 34,
+    "fields": {
+      "title": "... Ann at school?",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        117,
+        118,
+        119
+      ]
+    }
+  },
+  {
+    "model": "study.question",
+    "pk": 35,
+    "fields": {
+      "title": "... you sisters?",
+      "is_active": true,
+      "is_finished": false,
+      "answer": [
+        120,
+        121,
+        122
+      ]
+    }
+  }
+]
