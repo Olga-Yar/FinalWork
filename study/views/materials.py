@@ -14,10 +14,6 @@ class MaterialsViewSet(ModelViewSet):
     serializer_class = MaterialsSerializer
     permission_classes = [IsAuthenticated | IsModerator]
 
-    # def get_queryset(self):
-    #     item_id = self.kwargs['item_id']
-    #     return Materials.objects.filter(section=item_id)
-
     def list(self, request, **kwargs):
         """Отображение списка материалов"""
         queryset = Materials.objects.all()
