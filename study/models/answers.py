@@ -10,7 +10,6 @@ class Answers(models.Model):
     user_answer = models.BooleanField(default=False, verbose_name='ответ пользователя')
     is_correct_answer = models.BooleanField(default=False, verbose_name='правильный ответ')
     is_user_correct = models.BooleanField(default=False, verbose_name='верный ли ответ пользователя')
-    user = models.ForeignKey(get_user_model(), on_delete=models.DO_NOTHING, default=None)
 
     def __str__(self):
         return f'{self.answer} - {self.is_correct_answer}, {self.user_answer}'
