@@ -5,30 +5,8 @@ from study.models.materials import Materials
 
 class MaterialsSerializer(serializers.ModelSerializer):
     count_questions = serializers.SerializerMethodField()
-    # count_right_answers = serializers.SerializerMethodField()
-    # answer = serializers.SerializerMethodField()
     percent_complete = serializers.FloatField()
-
-    # def get_num_questions(self, obj):
-    #     """Расчет количества вопросов в данном материале"""
-    #     return obj.question.all().count()
-    #
-    # def get_question(self, obj):
-    #     """Список вопросов в материале"""
-    #     return [i.pk for i in obj.question.all()]
-    #
-    # def get_num_right_answers(self, obj):
-    #     """Получение количества правильных ответов текущего пользователя в данном материале"""
-    #     return obj.answers_set.filter(is_user_correct=True).count()
-    #
-    # def to_representation(self, instance):
-    #     """Вычисление процента выполнения блока. В расчете учитываются только правильные ответа пользователя"""
-    #     representation = super().to_representation(instance)
-    #     representation['percent_complete'] = (
-    #             representation['num_right_answers'] /
-    #             representation['num_questions'] * 100
-    #     )
-    #     return representation
+    question_title = serializers.SerializerMethodField()
 
     def get_count_questions(self, obj):
         """Расчет количества вопросов в данном материале"""
@@ -46,9 +24,12 @@ class MaterialsSerializer(serializers.ModelSerializer):
             return count_right_answers / count_questions * 100
         return 0
 
+    def get_question_title(self, obj):
+        question = obj.question.all().values_list('title', flat=True)
+        return list(question)
 
     class Meta:
         model = Materials
         fields = [
-            'pk', 'name_m', 'question', 'is_finished', 'count_questions', 'percent_complete',
+            'pk', 'name_m', 'question_title', 'is_finished', 'count_questions', 'percent_complete',
         ]
