@@ -52,10 +52,12 @@
 
 ### Порядок работы с приложением через [postman](./README_files/README_Postman.md).
 
-
 ### Порядок работы с [Django admin](./README_files/README_Admin.md) 
 (только модератор или админ).
 
+### [Копирование проекта](./README_files/README_copy_project.md) на локальный компьютер
+
+---
 
 ## Models:
 1. Item:
