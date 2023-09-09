@@ -3,7 +3,7 @@
 (только модератор или админ).
 
 1. Панель Django admin
-![Django admin](/staticfiles/image_readme/admin.png)
+![Django admin](https://github.com/Olga-Yar/FinalWork/blob/main/staticfiles/image_readme/admin.png)
 2. Список разделов
 ![Django admin_item](/staticfiles/image_readme/admin_item.png)<br>
 Для добавления нового раздела необходимо нажать "добавить раздел+" сверху справа страницы.
