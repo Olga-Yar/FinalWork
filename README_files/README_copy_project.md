@@ -2,7 +2,8 @@
 
 1. Создать новый проект в PyCharm.
 
-Команды ниже необходимо вводить через терминал PyCharm
+Команды ниже необходимо вводить через терминал PyCharm<br>
+
 2. Склонировать проект в PyCharm: <br>
 `git clone https://github.com/Olga-Yar/FinalWork.git`
 3. Нажать Enter
