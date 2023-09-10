@@ -2,6 +2,8 @@
 # Порядок работы с Django admin 
 (только модератор или админ).
 
+Переход в админку: http://127.0.0.1:8000/admin
+
 1. Панель Django admin
 ![Django admin](https://github.com/Olga-Yar/FinalWork/blob/main/staticfiles/image_readme/admin.png)
 2. Список разделов
