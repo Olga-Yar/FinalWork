@@ -36,5 +36,43 @@
       "groups": [],
       "user_permissions": []
     }
+  },
+  {
+    "model": "user.usercustom",
+    "pk": 2,
+    "fields": {
+      "password": "123098",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-09T11:26:21Z",
+      "email": "user@user.ru",
+      "first_name": null,
+      "last_name": null,
+      "avatar": "",
+      "role": "member",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "user.usercustom",
+    "pk": 3,
+    "fields": {
+      "password": "",
+      "last_login": null,
+      "is_superuser": false,
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2023-09-09T11:36:41.027Z",
+      "email": "user2@user.ru",
+      "first_name": null,
+      "last_name": null,
+      "avatar": "",
+      "role": "member",
+      "groups": [],
+      "user_permissions": []
+    }
   }
 ]

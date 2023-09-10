@@ -6,8 +6,7 @@
       "answer": "10",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -17,8 +16,7 @@
       "answer": "8",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -28,8 +26,7 @@
       "answer": "13",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -39,8 +36,7 @@
       "answer": "7",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -50,8 +46,7 @@
       "answer": "20",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -61,8 +56,7 @@
       "answer": "35",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -72,8 +66,7 @@
       "answer": "25",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -83,8 +76,7 @@
       "answer": "15",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -94,8 +86,7 @@
       "answer": "1",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -105,8 +96,7 @@
       "answer": "1.2",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -116,8 +106,7 @@
       "answer": "2",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -127,8 +116,7 @@
       "answer": "3",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -138,8 +126,7 @@
       "answer": "2",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -149,8 +136,7 @@
       "answer": "3",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -160,8 +146,7 @@
       "answer": "1",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -171,8 +156,7 @@
       "answer": "5",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -182,8 +166,7 @@
       "answer": "11",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -193,8 +176,7 @@
       "answer": "12",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -204,8 +186,7 @@
       "answer": "22",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -215,8 +196,7 @@
       "answer": "17",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -226,8 +206,7 @@
       "answer": "7",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -237,8 +216,7 @@
       "answer": "4",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -248,8 +226,7 @@
       "answer": "9",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -259,8 +236,7 @@
       "answer": "3",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -270,8 +246,7 @@
       "answer": "11",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -281,8 +256,7 @@
       "answer": "14",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -292,8 +266,7 @@
       "answer": "12",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -303,8 +276,7 @@
       "answer": "10",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -314,8 +286,7 @@
       "answer": "15",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -325,8 +296,7 @@
       "answer": "16",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -336,8 +306,7 @@
       "answer": "12",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -347,8 +316,7 @@
       "answer": "13",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -358,8 +326,7 @@
       "answer": "17",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -369,8 +336,7 @@
       "answer": "19",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -380,8 +346,7 @@
       "answer": "15",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -391,8 +356,7 @@
       "answer": "12",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -402,8 +366,7 @@
       "answer": "55",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -413,8 +376,7 @@
       "answer": "35",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -424,8 +386,7 @@
       "answer": "45",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -435,8 +396,7 @@
       "answer": "65",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -446,8 +406,7 @@
       "answer": "97",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -457,8 +416,7 @@
       "answer": "77",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -468,8 +426,7 @@
       "answer": "107",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -479,8 +436,7 @@
       "answer": "108",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -490,8 +446,7 @@
       "answer": "123",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -501,8 +456,7 @@
       "answer": "121",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -512,8 +466,7 @@
       "answer": "125",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -523,8 +476,7 @@
       "answer": "113",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -534,8 +486,7 @@
       "answer": "510",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -545,8 +496,7 @@
       "answer": "435",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -556,8 +506,7 @@
       "answer": "590",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -567,8 +516,7 @@
       "answer": "490",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -578,8 +526,7 @@
       "answer": "6",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -589,8 +536,7 @@
       "answer": "8",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -600,8 +546,7 @@
       "answer": "7",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -611,8 +556,7 @@
       "answer": "9",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -622,8 +566,7 @@
       "answer": "1",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -633,8 +576,7 @@
       "answer": "0",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -644,8 +586,7 @@
       "answer": "7",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -655,8 +596,7 @@
       "answer": "8",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -666,8 +606,7 @@
       "answer": "1035",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -677,8 +616,7 @@
       "answer": "1015",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -688,8 +626,7 @@
       "answer": "985",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -699,8 +636,7 @@
       "answer": "765",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -710,8 +646,7 @@
       "answer": "каравелла",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -721,8 +656,7 @@
       "answer": "токарный станок",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -732,8 +666,7 @@
       "answer": "астролябия",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -743,8 +676,7 @@
       "answer": "портоланы",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -754,8 +686,7 @@
       "answer": "Аристотель",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -765,8 +696,7 @@
       "answer": "И.Гуттенберг",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -776,8 +706,7 @@
       "answer": "П.Тосканелли",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -787,8 +716,7 @@
       "answer": "Ф.Магеллан",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -798,8 +726,7 @@
       "answer": "развитие торговли с Востоком",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -809,8 +736,7 @@
       "answer": "авантюризм",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -820,8 +746,7 @@
       "answer": "стремление к обогащению",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -831,8 +756,7 @@
       "answer": "верно все перечисленное выше",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -842,8 +766,7 @@
       "answer": "862",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -853,8 +776,7 @@
       "answer": "956",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -864,8 +786,7 @@
       "answer": "823",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -875,8 +796,7 @@
       "answer": "903",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -886,8 +806,7 @@
       "answer": "Борис и Глеб",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -897,8 +816,7 @@
       "answer": "Пересвет",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -908,8 +826,7 @@
       "answer": "Святослав",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -919,8 +836,7 @@
       "answer": "Аскольд и Дир",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -930,8 +846,7 @@
       "answer": "862-879",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -941,8 +856,7 @@
       "answer": "879-912",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -952,8 +866,7 @@
       "answer": "912-945",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -963,8 +876,7 @@
       "answer": "945-972",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -974,8 +886,7 @@
       "answer": "Хазарский каганат",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -985,8 +896,7 @@
       "answer": "Печенеги",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -996,8 +906,7 @@
       "answer": "Византийскию империю",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1007,8 +916,7 @@
       "answer": "don't love",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1018,8 +926,7 @@
       "answer": "doesn't love",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1029,8 +936,7 @@
       "answer": "love",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1040,8 +946,7 @@
       "answer": "don't drink",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1051,8 +956,7 @@
       "answer": "drinks",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1062,8 +966,7 @@
       "answer": "drink",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1073,8 +976,7 @@
       "answer": "drinks",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1084,8 +986,7 @@
       "answer": "doesn't drink",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1095,8 +996,7 @@
       "answer": "drink",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1106,8 +1006,7 @@
       "answer": "is",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1117,8 +1016,7 @@
       "answer": "are",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1128,8 +1026,7 @@
       "answer": "am",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1139,8 +1036,7 @@
       "answer": "is",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1150,8 +1046,7 @@
       "answer": "are",
       "user_answer": false,
       "is_correct_answer": true,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1161,8 +1056,7 @@
       "answer": "am",
       "user_answer": false,
       "is_correct_answer": false,
-      "is_user_correct": false,
-      "user": 0
+      "is_user_correct": false
     }
   },
   {
@@ -1380,10 +1274,10 @@
       "is_active": true,
       "is_finished": false,
       "answer": [
+        32,
         29,
         30,
-        31,
-        32
+        31
       ]
     }
   },
@@ -1410,10 +1304,10 @@
       "is_active": true,
       "is_finished": false,
       "answer": [
+        40,
         37,
         38,
-        39,
-        40
+        39
       ]
     }
   },
@@ -1440,10 +1334,10 @@
       "is_active": true,
       "is_finished": false,
       "answer": [
-        45,
+        48,
+        50,
         46,
-        47,
-        48
+        47
       ]
     }
   },
@@ -1560,10 +1454,10 @@
       "is_active": true,
       "is_finished": false,
       "answer": [
-        80,
         77,
         78,
-        79
+        79,
+        80
       ]
     }
   },
@@ -1620,10 +1514,10 @@
       "is_active": true,
       "is_finished": false,
       "answer": [
-        96,
         93,
         94,
-        95
+        95,
+        96
       ]
     }
   },
@@ -1650,10 +1544,10 @@
       "is_active": true,
       "is_finished": false,
       "answer": [
-        104,
         101,
         102,
-        103
+        103,
+        104
       ]
     }
   },
