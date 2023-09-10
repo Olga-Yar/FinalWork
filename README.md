@@ -59,34 +59,35 @@
 
 ---
 
-## Models:
+## Описание полей моделей:
 1. Item:
-    - name
-    - about
-    - materials (FK Materials)
-    - user (MtoM UserCustom)
+    - name - название раздела
+    - about - описание раздела
+    - materials (MtoM Materials) - связь с моделью Материалы через ключ ManyToMany
+    - user (MtoM UserCustom) - связь с моделью Пользователь через ключ ManyToMany
 2. Materials:
-    - name
-    - question (FK Questions)
-    - is_finished
-    - count_questions
-    - percent_complete
+    - name - название материала (темы)
+    - question (MtoM Question) - связь с моделью Вопрос через ключ ManyToMany
+    - is_finished - завершен ли материал или нет (все ответы пользователя должны быть правильными)
+    - count_questions - количество вопросов в материале
+    - percent_complete - процент выполнения материала (количество правильных ответов пользователя 
+   / количество вопросов)
 3. Questions:
-   - title
-   - is_active
-   - is_finished
+   - title - вопрос
+   - is_active - опубликован или нет
+   - is_finished - завершен или нет
 4. Answers:
-   - question (FK Questions)
-   - answer
-   - user_answer
-   - is_correct_answer
-   - is_user_correct
+   - question (MtoM Question) - связь с моделью Вопрос через ключ ManyToMany
+   - answer - ответ
+   - user_answer - ответ пользователя
+   - is_correct_answer - правильный или нет ответ
+   - is_user_correct - ответ пользователя верный или нет
 5. UserCustom:
-    - email
-    - first_name
-    - last_name
-    - avatar
-    - role
+    - email - почта
+    - first_name - имя (необязательное поле)
+    - last_name - фамилия (необязательное поле)
+    - avatar - аватар (необязательное поле)
+    - role - роль пользователя: пользователь или модератор, по умолчанию пользователь.
 
 ---
 
