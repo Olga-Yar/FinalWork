@@ -173,3 +173,20 @@ Body response:
     "percent_complete": 0.0
 }
 ```
+6. Изменение ответа пользователем
+```
+PUT запрос http://127.0.0.1:8000/answers/17/update/
+id ответа может быть любой, пример показан на ответе с id 17.
+Body (JSON)
+{
+    "user_answer": "True"
+}
+
+Body response:
+{
+    "answer": "10",
+    "user_answer": true,
+    "is_correct_answer": true,
+    "is_user_correct": false
+}
+```
