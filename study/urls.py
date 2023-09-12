@@ -2,6 +2,7 @@ from django.urls import path
 from rest_framework import routers
 
 from study.apps import StudyConfig
+from study.views.answers import AnswersViewSet
 from study.views.item import ItemViewSet
 from study.views.materials import MaterialsViewSet
 from study.views.questions import QuestionViewSet
@@ -23,6 +24,10 @@ urlpatterns = [
     path('questions/<int:pk>/', QuestionViewSet.as_view({'get': 'retrieve'})),
     path('questions/<int:pk>/update/', QuestionViewSet.as_view({'put': 'update'})),  # доступ только для модератора
     path('questions/create/', QuestionViewSet.as_view({'put': 'create'})),   # доступ только для модератора
+
+    path('answers/<int:pk>/update/', AnswersViewSet.as_view({'put': 'update'})),
+    path('answers/', AnswersViewSet.as_view({'get': 'list'})),
+    path('answers/<int:pk>/', AnswersViewSet.as_view({'get': 'retrieve'})),
 ]
 
 router = routers.SimpleRouter()

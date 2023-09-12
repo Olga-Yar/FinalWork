@@ -25,10 +25,18 @@ class AnswersViewSet(ModelViewSet):
 
         if request.user.has_perm('study.change_answers'):
             if 'user_answer' in request.data:
+                user_answer = request.data['user_answer']
+                is_correct_answer = instance.is_correct_answer
+
+                if user_answer == is_correct_answer:
+                    is_user_correct = True
+                else:
+                    is_user_correct = False
+
                 serializer = self.get_serializer(instance, data=request.data, partial=partial)
                 serializer.is_valid(raise_exeption=True)
 
-                serializer.save(user_answer=request.data['user_answer'])
+                serializer.save(user_answer=user_answer, is_user_correct=is_user_correct)
                 self.perform_update(serializer)
             else:
                 return Response({'error': 'Only user_answer field can be updated'},
