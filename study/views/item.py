@@ -4,6 +4,7 @@ from rest_framework.viewsets import ModelViewSet
 from django.shortcuts import get_object_or_404
 
 from study.models.item import Item
+from study.paginators import ItemPaginator
 from study.permissions import IsModerator
 from study.seriallizers.item import ItemSerializer
 
@@ -16,8 +17,10 @@ class ItemViewSet(ModelViewSet):
     def list(self, request, **kwargs):
         """Отображение списка разделов"""
         queryset = Item.objects.all()
-        serializer = ItemSerializer(queryset, many=True)
-        return Response(serializer.data)
+        paginator = ItemPaginator()
+        page = paginator.paginate_queryset(queryset, request)
+        serializer = ItemSerializer(page, many=True)
+        return paginator.get_paginated_response(serializer.data)
 
     def retrieve(self, request, pk=None, **kwargs):
         """Отображение одного раздела"""
