@@ -13,7 +13,7 @@ class QuestionViewSet(ModelViewSet):
     queryset = Question.objects.all()
     serializer_class = QuestionSerializer
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
-    filterset_fields = ('materials__name_m')
+    filterset_fields = ('materials__name_m',)
     permission_classes = [IsAuthenticated | IsModerator]
 
     def list(self, request, **kwargs):
