@@ -13,7 +13,15 @@ from study.seriallizers.item import ItemSerializer
 class ItemViewSet(ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
-    permission_classes = [IsAuthenticated | IsModerator]
+
+    def get_permissions(self):
+        """Проверка разрешения для различных методов"""
+        if self.action == 'create' or self.action == 'update' or self.action == 'destroy':
+            permissions_classes = [IsModerator]  # создавать, удалять или обновлять может только модератор
+        else:
+            permissions_classes = [IsAuthenticated]  # остальные действия только для авторизованных пользователей
+
+        return [permission() for permission in permissions_classes]
 
     def list(self, request, **kwargs):
         """Отображение списка разделов"""
