@@ -6,7 +6,7 @@ NULLABLE = {'blank': True, 'null': True}
 
 
 class Answers(models.Model):
-    answer = models.CharField(max_length=150, verbose_name='ответ', **NULLABLE)
+    answer = models.CharField(max_length=150, verbose_name='ответ')
     user_answer = models.BooleanField(default=False, verbose_name='ответ пользователя')
     is_correct_answer = models.BooleanField(default=False, verbose_name='правильный ответ')
     is_user_correct = models.BooleanField(default=False, verbose_name='верный ли ответ пользователя')
