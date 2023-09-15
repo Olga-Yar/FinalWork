@@ -6,13 +6,18 @@ from study.seriallizers.materials import MaterialsSerializer
 
 class ItemSerializer(serializers.ModelSerializer):
     materials_name = serializers.SerializerMethodField()
+    materials_pk = serializers.SerializerMethodField()
 
     def get_materials_name(self, obj):
         materials = obj.materials.all().values_list('name_m', flat=True)
         return list(materials)
 
+    def get_materials_pk(self, obj):
+        mat_pk = obj.materials.all().values_list('pk', flat=True)
+        return mat_pk
+
     class Meta:
         model = Item
         fields = [
-            'name', 'about', 'materials_name',
+            'pk', 'name', 'about', 'materials_pk', 'materials_name',
             ]
