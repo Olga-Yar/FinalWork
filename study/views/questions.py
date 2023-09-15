@@ -15,7 +15,15 @@ class QuestionViewSet(ModelViewSet):
     serializer_class = QuestionSerializer
     filter_backends = [django_filters.rest_framework.DjangoFilterBackend]
     filterset_fields = ('materials__name_m',)
-    permission_classes = [IsAuthenticated | IsModerator]
+
+    def get_permissions(self):
+        """Проверка разрешения для различных методов"""
+        if self.action == 'create' or self.action == 'update' or self.action == 'destroy':
+            permissions_classes = [IsModerator]  # создавать, удалять или обновлять может только модератор
+        else:
+            permissions_classes = [IsAuthenticated]  # остальные действия только для авторизованных пользователей
+
+        return [permission() for permission in permissions_classes]
 
     def list(self, request, **kwargs):
         """Отображение списка вопросов"""
