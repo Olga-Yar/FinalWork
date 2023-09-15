@@ -17,3 +17,12 @@ class Answers(models.Model):
     class Meta:
         verbose_name = 'ответ'
         verbose_name_plural = 'ответы'
+
+    def save(self, *args, **kwargs):
+        """Проверка ответа пользователя"""
+        if self.user_answer and self.is_correct_answer:
+            self.is_user_correct = True
+        else:
+            self.is_user_correct = False
+
+
