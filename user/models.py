@@ -1,4 +1,5 @@
 from django.contrib.auth.models import AbstractUser
+from .managers import CustomUserManager
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
@@ -18,6 +19,8 @@ class UserCustom(AbstractUser):
     avatar = models.ImageField(upload_to='Users/', verbose_name='аватар', **NULLABLE)
 
     role = models.CharField(max_length=10, choices=UserRoles.choices, default=UserRoles.MEMBER)
+
+    objects = CustomUserManager()
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = []
