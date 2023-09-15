@@ -19,3 +19,14 @@ class Materials(models.Model):
     class Meta:
         verbose_name = 'материал'
         verbose_name_plural = 'материалы'
+
+    # def save(self, *args, **kwargs):
+    #     """Расчет процента завершенности"""
+    #     self.count_questions = self.question.all().count()
+    #     self.count_right_answers = self.answers.filter(is_user_correct=True).count()
+    #     if self.count_questions > 0:
+    #         self.percent_complete = self.count_right_answers / self.count_questions * 100
+    #     else:
+    #         self.percent_complete = 0.0
+    #
+    #     super().save(*args, **kwargs)
