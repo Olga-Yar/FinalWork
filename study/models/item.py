@@ -10,7 +10,7 @@ NULLABLE = {'blank': True, 'null': True}
 class Item(models.Model):
 
     name = models.CharField(max_length=50, verbose_name='раздел', unique=True)
-    about = models.TextField(verbose_name='описание', **NULLABLE)
+    about = models.TextField(verbose_name='описание')
     materials = models.ManyToManyField('Materials')
     user = models.ManyToManyField('user.UserCustom')
 
