@@ -1,4 +1,5 @@
 import django_filters
+from rest_framework import status
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
@@ -28,3 +29,9 @@ class QuestionViewSet(ModelViewSet):
         question = get_object_or_404(queryset, pk=pk)
         serializer = QuestionSerializer(question)
         return Response(serializer.data)
+
+    def destroy(self, request, *args, **kwargs):
+        """Удаление вопроса по PK"""
+        instance = self.get_object()
+        self.perform_destroy(instance)
+        return Response(status=status.HTTP_204_NO_CONTENT)
