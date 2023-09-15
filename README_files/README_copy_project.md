@@ -46,3 +46,17 @@ Quit the server with CONTROL-C.
 
 
 **При работе на Windows вместо python3 и pip3 необходимо использовать python и pip.**
+
+---
+16. Обновление проекта локально<br>
+В терминале в Pycharm написать команду:<br>
+`git pull origin main`<br>
+
+'main' - название вашей локальной ветки, если название 
+другое - замените на то, которое указано в вас.
+
+17. Выполнить команду для обновления зависимостей:<br>
+`pip3 install -r requirements.txt`
+
+18. Запустите сервер:<br>
+`python3 manage.py runserver`
