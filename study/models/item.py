@@ -3,6 +3,8 @@ from django.db import models
 from rest_framework.exceptions import ValidationError
 
 from django.utils.translation import gettext_lazy as _
+import re
+
 
 NULLABLE = {'blank': True, 'null': True}
 
@@ -10,7 +12,7 @@ NULLABLE = {'blank': True, 'null': True}
 class Item(models.Model):
 
     name = models.CharField(max_length=50, verbose_name='раздел', unique=True)
-    about = models.TextField(verbose_name='описание')
+    about = models.TextField(max_length=500, verbose_name='описание')
     materials = models.ManyToManyField('Materials')
     user = models.ManyToManyField('user.UserCustom')
 
@@ -23,9 +25,9 @@ class Item(models.Model):
 
     def save(self, *args, **kwargs):
         """Валидация имени на уровне модели"""
-        if not self.name.isalpha() or not self.name.isascii() or not self.name.islower():
+        if not re.match("^[а-яА-Я]+$", self.name):
             raise ValidationError(
-                _('Имя раздела должно содержать только русские буквы и быть в нижнем регистре.'),
+                _('Имя раздела должно содержать только русские буквы.'),
                 code='invalid_russian_name',
             )
 
@@ -34,4 +36,6 @@ class Item(models.Model):
                 _('Имя раздела должно начинаться с заглавной буквы.'),
                 code='invalid_starts_with_capital',
             )
+
+        super().save(*args, **kwargs)
 

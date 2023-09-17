@@ -9,7 +9,7 @@ NULLABLE = {'blank': True, 'null': True}
 
 class Materials(models.Model):
 
-    name_m = models.CharField(max_length=50, verbose_name='название')
+    name_m = models.CharField(max_length=50, verbose_name='название', unique=True)
     question = models.ManyToManyField('Question')
     is_finished = models.BooleanField(default=False, verbose_name='завершен')
     count_questions = models.IntegerField(verbose_name='количество вопросов', default=0)
@@ -23,15 +23,17 @@ class Materials(models.Model):
         verbose_name_plural = 'материалы'
 
     def save(self, *args, **kwargs):
-        """Валидация названия на уровне модели"""
-        if not self.name_m.isalpha() or not self.name_m.isascii() or not self.name_m.islower():
+        """Валидация имени на уровне модели"""
+        if not re.match("^[а-яА-Я]+$", self.name):
             raise ValidationError(
-                _('Имя раздела должно содержать только русские буквы и быть в нижнем регистре.'),
+                _('Имя раздела должно содержать только русские буквы.'),
                 code='invalid_russian_name',
             )
 
-        if not self.name_m[0].isupper():
+        if not self.name[0].isupper():
             raise ValidationError(
                 _('Имя раздела должно начинаться с заглавной буквы.'),
                 code='invalid_starts_with_capital',
             )
+
+        super().save(*args, **kwargs)
