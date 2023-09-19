@@ -1,4 +1,4 @@
-from typing import re
+import re
 
 from django.db import models
 from rest_framework.exceptions import ValidationError
@@ -25,13 +25,13 @@ class Materials(models.Model):
 
     def save(self, *args, **kwargs):
         """Валидация имени на уровне модели"""
-        if not re.match("^[а-яА-Я]+$", self.name):
+        if not re.match("^[а-яА-Я]+$", self.name_m):
             raise ValidationError(
                 _('Имя раздела должно содержать только русские буквы.'),
                 code='invalid_russian_name',
             )
 
-        if not self.name[0].isupper():
+        if not self.name_m[0].isupper():
             raise ValidationError(
                 _('Имя раздела должно начинаться с заглавной буквы.'),
                 code='invalid_starts_with_capital',
