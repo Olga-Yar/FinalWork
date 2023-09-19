@@ -1,8 +1,6 @@
-from django.contrib.auth import get_user_model
-from django.db import models
-from rest_framework.exceptions import ValidationError
 
-from django.utils.translation import gettext_lazy as _
+from django.db import models
+
 
 NULLABLE = {'blank': True, 'null': True}
 
@@ -19,4 +17,3 @@ class Question(models.Model):
     class Meta:
         verbose_name = 'вопрос'
         verbose_name_plural = 'вопросы'
-

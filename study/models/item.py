@@ -1,4 +1,4 @@
-from django.contrib.auth import get_user_model
+
 from django.db import models
 from rest_framework.exceptions import ValidationError
 
@@ -38,4 +38,3 @@ class Item(models.Model):
             )
 
         super().save(*args, **kwargs)
-

@@ -1,7 +1,6 @@
 from rest_framework import serializers
 
 from study.models.item import Item
-from study.seriallizers.materials import MaterialsSerializer
 
 
 class ItemSerializer(serializers.ModelSerializer):
@@ -20,4 +19,4 @@ class ItemSerializer(serializers.ModelSerializer):
         model = Item
         fields = [
             'pk', 'name', 'about', 'materials_pk', 'materials_name',
-            ]
+        ]

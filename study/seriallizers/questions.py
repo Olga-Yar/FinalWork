@@ -2,7 +2,6 @@ from rest_framework import serializers
 from rest_framework.fields import SerializerMethodField
 
 from study.models.questions import Question
-from study.seriallizers.answers import AnswersSerializer
 
 
 class QuestionSerializer(serializers.ModelSerializer):

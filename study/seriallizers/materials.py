@@ -1,6 +1,5 @@
 from rest_framework import serializers
 
-from study.models import answers, Answers
 from study.models.materials import Materials
 
 

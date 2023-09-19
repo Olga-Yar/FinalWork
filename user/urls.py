@@ -1,6 +1,6 @@
 
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenVerifyView
-from django.urls import path, include
+from django.urls import path
 
 from user.apps import UserConfig
 from user.views import UserCustomViewSet
@@ -12,5 +12,4 @@ urlpatterns = [
     path('token/refresh/', TokenObtainPairView.as_view()),
     path('token/verify/', TokenVerifyView.as_view()),
     path('create/', UserCustomViewSet.as_view({'put': 'create'})),
-
 ]

@@ -1,9 +1,7 @@
 from rest_framework import status
-from rest_framework.permissions import IsAuthenticated
+
 from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
-from django.contrib.auth.base_user import BaseUserManager
-from django.utils.translation import gettext_lazy as _
 
 from user.models import UserCustom
 from user.seriallizers import UserCustomSerializer
@@ -22,4 +20,3 @@ class UserCustomViewSet(ModelViewSet):
         user = UserCustom.objects.create_user(email=email, password=password)
         headers = self.get_success_headers(serializer.data)
         return Response(serializer.data, status=status.HTTP_201_CREATED, headers=headers)
-

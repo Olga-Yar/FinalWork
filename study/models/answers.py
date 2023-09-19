@@ -1,6 +1,6 @@
-from django.contrib.auth import get_user_model
+
 from django.db import models
-from rest_framework.exceptions import ValidationError
+
 
 NULLABLE = {'blank': True, 'null': True}
 
@@ -26,6 +26,3 @@ class Answers(models.Model):
             self.is_user_correct = False
 
         super().save(*args, **kwargs)
-
-
-
