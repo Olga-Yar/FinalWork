@@ -1,7 +1,7 @@
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from study.models import Materials, Answers
+from study.models import Answers
 from user.models import UserCustom
 
 
